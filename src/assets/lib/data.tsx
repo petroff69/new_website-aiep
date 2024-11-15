@@ -13,13 +13,7 @@ import mongodbicon from "../../assets/icons/mongoicon.svg";
 import vuejsicon from "../../assets/icons/vueicon.svg";
 import expressicon from "../../assets/icons/expressicon.svg";
 import sassscssicon from "../../assets/icons/sassicon.svg";
-import trelloicon from "../../assets/icons/trelloicon.svg";
 import apiicon from "../../assets/icons/apiicon.svg";
-import axiosicon from "../../assets/icons/axiosicon.svg";
-import spotifyicon from "../../assets/icons/spotifyicon.svg";
-import netlifyicon from "../../assets/icons/netlifyicon.svg";
-import rendericon from "../../assets/icons/rendericon.svg";
-import jwticon from "../../assets/icons/jwticon.svg";
 import wordpressicon from "../../assets/icons/wordpressicon.svg";
 import shopifyicon from "../../assets/icons/shopifyicon.svg";
 import webflowicon from "../../assets/icons/webflowicon.svg";
@@ -31,7 +25,6 @@ import caricon from "../../assets/icons/car-icon.svg";
 import travelicon from "../../assets/icons/travel-icon.svg";
 import hardwareicon from "../../assets/icons/hardware-icon.svg";
 import nextjsiconwhite from "../../assets/icons/nextjsiconwhite.svg";
-import expressiconwhite from "../../assets/icons/expressiconwhite.svg";
 import { GoHome, GoPerson, GoMail, GoStack, GoProject } from "react-icons/go";
 import { FiBook, FiGithub, FiLink, FiLinkedin, FiMail } from "react-icons/fi";
 import Imprint from "../../components/Imprint";
@@ -57,7 +50,7 @@ export const headerIntroData = {
       color: "secondary-btn",
     },
     {
-      name: "Projects",
+      name: "Prototypes",
       label: {
         de: "Прототипите",
         en: "The prototypes",
