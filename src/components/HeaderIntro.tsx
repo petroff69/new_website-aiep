@@ -31,7 +31,6 @@ const HeaderIntro: React.FC = () => {
           : headerIntroData.title.en}
         <span className="wave text-7xl">&#128075;&#127997;</span>
       </h1>
-      <h2>{headerIntroData.subtitle}</h2>
       <p className="w-1/2 text-center max-lg:hidden">
         {language === "DE"
           ? headerIntroData.description.de
@@ -42,7 +41,7 @@ const HeaderIntro: React.FC = () => {
         {headerIntroData.buttons.map((button, index) => (
           <Button
             key={index}
-            label={language === "BG" ? button.label.de : button.label.en}
+            label={language === "DE" ? button.label.de : button.label.en}
             iconSVG={button.icon}
             link={`#${button.name.toLocaleLowerCase()}`}
             buttoncolor={button.color}

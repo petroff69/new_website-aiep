@@ -16,7 +16,7 @@ import "swiper/css/effect-cards";
 import "swiper/css/pagination";
 
 const ProjectSlider: React.FC = () => {
-  const { ref } = useSectionInView("Projects");
+  const { ref } = useSectionInView("Prototypes");
   const { language } = useLanguage();
   const animationReference = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -37,7 +37,7 @@ const ProjectSlider: React.FC = () => {
     <React.Fragment>
       <section
         className=" skill-banner relative overflow-x-clip h-100% w-full flex flex-col gap-2 "
-        id="projects"
+        id="prototypes"
         ref={ref}
       >
         <ToastContainer

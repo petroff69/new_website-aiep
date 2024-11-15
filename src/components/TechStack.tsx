@@ -13,7 +13,7 @@ import RadialGradient from "./RadialGradient";
 import { motion, useScroll, useTransform } from "framer-motion";
 
 const TechStack: React.FC = () => {
-  const { ref } = useSectionInView("Skills");
+  const { ref } = useSectionInView("Technologies");
   const { theme } = useTheme();
   const { language } = useLanguage();
   const animationReference = useRef<HTMLDivElement>(null);
