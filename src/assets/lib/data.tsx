@@ -455,7 +455,7 @@ export const contactData = {
 
 export const toastMessages = {
   loadingProject: {
-    de: "🦄 Die Live Demo wird gleich geöffnet. Server werden gestartet...",
+    de: "🦄 The demo will open soon. Starting the servers...",
     en: "🦄 Демото на живо ще се отвори скоро. Стартиране на сървърите...",
   },
   successEmailSent: {
