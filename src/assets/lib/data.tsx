@@ -18,6 +18,7 @@ import wordpressicon from "../../assets/icons/wordpressicon.svg";
 import shopifyicon from "../../assets/icons/shopifyicon.svg";
 import webflowicon from "../../assets/icons/webflowicon.svg";
 import tastyMockup from "../../assets/img/tasty_mockup.webp";
+import flashcards from "../../assets/img/flashcards.png";
 import instorMockup from "../../assets/img/instor_mockup.webp";
 import silentmoonMockup from "../../assets/img/silentmoon_mockup.webp";
 import profilepicture from "../img/me2.png";
@@ -79,6 +80,31 @@ export const projectsData = [
     image: tastyMockup,
     deploymenturl: "https://image.sentient-aiep.xyz/",
     githuburl: "https://github.com/petroff69/Sentient-Image-Descripton-Collector-Prototype",
+    githubicon: FiGithub,
+    deploymenticon: FiLink,
+    colors: {
+      main: "main-btn",
+      second: "secondary-btn",
+      icon: "white",
+      projectcolor: "#70B9BE",
+    },
+  },
+  {
+    title: "Sentient AI Flashcards",
+    description:
+      "Съзнателният AI ви позволява да създавате мощни флашкарти за секунди. Просто качете вашите бележки и започнете да усвоявате концепции по-бързо с помощта на AI, който ще ви помага да разбирате по-задълбочено.",
+    description_EN:
+      "Sentient AI lets you create powerful flashcards in seconds. Just upload your notes and start mastering concepts faster, with AI that helps you understand more deeply.",
+    technologies: [
+      { name: "Html", icon: htmlicon },
+      { name: "CSS", icon: cssicon },
+      { name: "JavaScript", icon: javascripticon },
+      { name: "REST Api", icon: apiicon },
+      { name: "React", icon: reacticon },
+    ],
+    image: flashcards,
+    deploymenturl: "https://flashcard.sentient-aiep.xyz/",
+    githuburl: "https://github.com/petroff69/sentient-ai-flashcards",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
