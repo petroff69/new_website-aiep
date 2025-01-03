@@ -38,20 +38,40 @@ const HeaderIntro: React.FC = () => {
       </p>
 
       <div className="button-container flex items-center justify-center mr-8 gap-10 mb-12 max-lg:flex-col max-lg:items-center">
-        {headerIntroData.buttons.map((button, index) => (
-          <Button
-            key={index}
-            label={language === "DE" ? button.label.de : button.label.en}
-            iconSVG={button.icon}
-            link={`#${button.name.toLocaleLowerCase()}`}
-            buttoncolor={button.color}
-            onClick={() => {
-              setActiveSection(button.name);
-              setTimeOfLastClick(Date.now());
-            }}
-          />
-        ))}
-      </div>
+  {headerIntroData.buttons
+    .filter((button) => button.type === "secondary")
+    .map((button, index) => (
+      <Button
+        key={index}
+        label={language === "DE" ? button.label.de : button.label.en}
+        iconSVG={button.icon}
+        link={`#${button.name.toLocaleLowerCase()}`}
+        buttoncolor={button.color}
+        onClick={() => {
+          setActiveSection(button.name);
+          setTimeOfLastClick(Date.now());
+        }}
+      />
+    ))}
+</div>
+
+<div className="button-container flex items-center justify-center mr-8 gap-10 mb-12 max-lg:flex-col max-lg:items-center">
+  {headerIntroData.buttons
+    .filter((button) => button.type === "primary")
+    .map((button, index) => (
+      <Button
+        key={index}
+        label={language === "DE" ? button.label.de : button.label.en}
+        iconSVG={button.icon}
+        link="https://docs.sentient-aiep.xyz/introduction"
+        buttoncolor={button.color}
+        onClick={() => {
+          setActiveSection(button.name);
+          setTimeOfLastClick(Date.now());
+        }}
+      />
+    ))}
+</div>
 
       <div className="scroll-down-container animate-bounce flex gap-6">
         <BsMouse className="text-[2.6rem]" />
