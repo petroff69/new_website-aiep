@@ -48,6 +48,7 @@ export const headerIntroData = {
         en: "Download the research papper",
       },
       icon: FiBook,
+      type: "primary",
       color: "secondary-btn",
     },
     {
@@ -57,6 +58,7 @@ export const headerIntroData = {
         en: "The prototypes",
       },
       icon: FiGithub,
+      type: "secondary",
       color: "main-btn",
     },
   ],
