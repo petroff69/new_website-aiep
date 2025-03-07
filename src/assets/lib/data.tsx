@@ -44,8 +44,8 @@ export const headerIntroData = {
     {
       name: "Contact",
       label: {
-        de: "Изтеглете научна документация",
-        en: "Download the research papper",
+        de: "Документация и новини",
+        en: "Documentation and new updates",
       },
       icon: FiBook,
       type: "primary",
@@ -156,7 +156,82 @@ export const projectsData = [
       { name: "Node.js", icon: nodejsicon },
     ],
     image: instorMockup,
-    deploymenturl: "https://voice.sentient-aiep.xyz/",
+    deploymenturl: "https://chatbot.sentient-aiep.xyz/",
+    githuburl: "https://github.com/petroff69/Sentient-Voice-Recognition-AI",
+    githubicon: FiGithub,
+    deploymenticon: FiLink,
+    colors: {
+      main: "main-btn",
+      second: "secondary-btn",
+      icon: "white",
+      projectcolor: "#E3964A",
+    },
+  },
+  {
+    title: "AI Текстов редактор",
+    description:
+      "Потребителите могат да въвеждат промптове, за да насочват AI в редактирането и подобряването на текст, като регулират параметри като температура и максимален брой токени. Интерфейсът е напълно отзивчив за използване както на десктопи, така и на мобилни устройства.",
+    description_EN:
+      "Users can enter prompts to guide the AI in editing and improving text, adjusting parameters such as temperature and maximum token count. The interface is fully responsive for use on both desktops and mobile devices.",
+    technologies: [
+      { name: "Html", icon: htmlicon },
+      { name: "CSS", icon: cssicon },
+      { name: "JavaScript", icon: javascripticon },
+      { name: "React", icon: reacticon },
+      { name: "Node.js", icon: nodejsicon },
+    ],
+    image: instorMockup,
+    deploymenturl: "https://editor.sentient-aiep.xyz/",
+    githuburl: "https://github.com/petroff69/Sentient-Voice-Recognition-AI",
+    githubicon: FiGithub,
+    deploymenticon: FiLink,
+    colors: {
+      main: "main-btn",
+      second: "secondary-btn",
+      icon: "white",
+      projectcolor: "#E3964A",
+    },
+  },
+  {
+    title: "AI- Driven Code Editor",
+    description:
+      "Оптимизиране на работния процес чрез AI помощ и преглед на кода в реално време. Интегрираната AI поддръжка и автоматичен анализ на кода подобряват ефективността на разработчиците. Предлагане на разширени функционалности за редактиране на код. Предоставяне на AI-базирани предложения и обяснения на кода.",
+    description_EN:
+      "Optimizing the workflow with AI assistance and real-time code review. Integrated AI support and automatic code analysis enhance developer efficiency. Offering advanced code editing features. Providing AI-based suggestions and code explanations.",
+    technologies: [
+      { name: "Html", icon: htmlicon },
+      { name: "CSS", icon: cssicon },
+      { name: "JavaScript", icon: javascripticon },
+      { name: "React", icon: reacticon },
+      { name: "Node.js", icon: nodejsicon },
+    ],
+    image: instorMockup,
+    deploymenturl: "https://code.sentient-aiep.xyz/",
+    githuburl: "https://github.com/petroff69/Sentient-Voice-Recognition-AI",
+    githubicon: FiGithub,
+    deploymenticon: FiLink,
+    colors: {
+      main: "main-btn",
+      second: "secondary-btn",
+      icon: "white",
+      projectcolor: "#E3964A",
+    },
+  },
+  {
+    title: "Генератор на блоксхеми",
+    description:
+      "Разработване на уеб-базирано приложение, което генерира блок-схеми от текстови описания. Интегриране AI модели за обработка на естествен език и автоматично създаване на блок-схеми. Реализиране на интуитивен потребителски интерфейс с поддръжка на множество езици и осигуряване на адаптивен дизайн.",
+    description_EN:
+      "Development of a web-based application that generates flowcharts from textual descriptions. Integration of AI models for natural language processing and automatic flowchart creation. Implementation of an intuitive user interface with multilingual support and a responsive design.",
+    technologies: [
+      { name: "Html", icon: htmlicon },
+      { name: "CSS", icon: cssicon },
+      { name: "JavaScript", icon: javascripticon },
+      { name: "React", icon: reacticon },
+      { name: "Node.js", icon: nodejsicon },
+    ],
+    image: instorMockup,
+    deploymenturl: "https://flowchart.sentient-aiep.xyz/",
     githuburl: "https://github.com/petroff69/Sentient-Voice-Recognition-AI",
     githubicon: FiGithub,
     deploymenticon: FiLink,
