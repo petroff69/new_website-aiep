@@ -81,7 +81,7 @@ export const projectsData = [
     ],
     image: tastyMockup,
     deploymenturl: "https://image.sentient-aiep.xyz/",
-    githuburl: "https://github.com/petroff69/Sentient-Image-Descripton-Collector-Prototype",
+    githuburl: "https://github.com/petroff69/sentient-aiep",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
@@ -106,7 +106,7 @@ export const projectsData = [
     ],
     image: flashcards,
     deploymenturl: "https://flashcard.sentient-aiep.xyz/",
-    githuburl: "https://github.com/petroff69/sentient-ai-flashcards",
+    githuburl: "https://github.com/petroff69/sentient-aiep",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
@@ -117,37 +117,11 @@ export const projectsData = [
     },
   },
   {
-    title: "Sentient Two Prompted Chatbot",
+    title: "Sentient Chatbot",
     description:
-      "Sentient Two Prompted Chatbot (2PC) е многофункционален текстов редактор и чатбот, задвижван от изкуствен интелект, който предлага високо интерактивни и персонализируеми отговори. Разработен с Next.js и Vercel AI SDK и захранван от Groq за бързо обработване, Sentient 2PC осигурява динамично преживяване в разговорите. Чатботът генерира прозорливи и контекстуално точни отговори, което го прави идеален за ежедневни взаимодействия. Потребителите могат активно да оформят мисловния процес на чатбота чрез предоставяне на специфични подсказки, което позволява реалновременни настройки на стила и перспективите на отговорите. Това прави чатбота особено адаптивен към различни контексти или нужди на потребителите.",
+      "Sentient Chatbot е високоскоростен, гласово управляван чатбот, който позволява пълноценни разговорни взаимодействия без необходимост от клавиатура. Използвайки Llama 3 на Meta, този асистент осигурява бърза и изцяло гласова комуникация, която се усеща изключително интуитивна и „осъзната“.",
     description_EN:
-      "Sentient Two Prompted Chatbot (2PC) is a versatile, AI-driven text editor and chatbot that enables highly interactive and customizable responses. Built with Next.js and the Vercel AI SDK, and powered by Groq for fast inference, Sentient 2PC provides a dynamic conversational experience. Sentient 2PC generates insightful and contextually accurate responses, making it ideal for everyday interactions. Users can actively shape the chatbot's by providing specific prompts, allowing real-time adjustments to response styles and perspectives. This makes the chatbot particularly adaptive to different contexts or user needs.",
-    technologies: [
-      { name: "Html", icon: htmlicon },
-      { name: "CSS", icon: cssicon },
-      { name: "JavaScript", icon: javascripticon },
-      { name: "React", icon: reacticon },
-      { name: "Node.js", icon: nodejsicon },
-    ],
-    image: silentmoonMockup,
-    deploymenturl: "https://spell.sentient-aiep.xyz/",
-    githuburl:
-      "https://github.com/petroff69/sentient-aiep-2prompted-prototype",
-    githubicon: FiGithub,
-    deploymenticon: FiLink,
-    colors: {
-      main: "main-btn",
-      second: "secondary-btn",
-      icon: "white",
-      projectcolor: "#FFD5BD",
-    },
-  },
-  {
-    title: "Sentient Voice Assistant AI ",
-    description:
-      "Sentient Voice Assistant AI е високоскоростен, гласово управляван чатбот, който позволява пълноценни разговорни взаимодействия без необходимост от клавиатура. Използвайки Llama 3 на Meta, този асистент осигурява бърза и изцяло гласова комуникация, която се усеща изключително интуитивна и „осъзната“.",
-    description_EN:
-      "Sentient Voice Assistant AI is a high-speed, voice-driven chatbot that enables full conversational interactions without the need for a keyboard. Utilizing Meta's Llama 3, this assistant provides responsive, voice-only communication that feels highly intuitive and sentient",
+      "Sentient Chatbot AI is a high-speed, voice-driven chatbot that enables full conversational interactions without the need for a keyboard. Utilizing Meta's Llama 3, this assistant provides responsive, voice-only communication that feels highly intuitive and sentient",
     technologies: [
       { name: "Html", icon: htmlicon },
       { name: "CSS", icon: cssicon },
@@ -157,7 +131,7 @@ export const projectsData = [
     ],
     image: instorMockup,
     deploymenturl: "https://chatbot.sentient-aiep.xyz/",
-    githuburl: "https://github.com/petroff69/Sentient-Voice-Recognition-AI",
+    githuburl: "https://github.com/petroff69/sentient-aiep",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
@@ -182,7 +156,7 @@ export const projectsData = [
     ],
     image: instorMockup,
     deploymenturl: "https://editor.sentient-aiep.xyz/",
-    githuburl: "https://github.com/petroff69/Sentient-Voice-Recognition-AI",
+    githuburl: "https://github.com/petroff69/sentient-aiep",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
@@ -207,7 +181,7 @@ export const projectsData = [
     ],
     image: instorMockup,
     deploymenturl: "https://code.sentient-aiep.xyz/",
-    githuburl: "https://github.com/petroff69/Sentient-Voice-Recognition-AI",
+    githuburl: "https://github.com/petroff69/sentient-aiep",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
@@ -232,7 +206,7 @@ export const projectsData = [
     ],
     image: instorMockup,
     deploymenturl: "https://flowchart.sentient-aiep.xyz/",
-    githuburl: "https://github.com/petroff69/Sentient-Voice-Recognition-AI",
+    githuburl: "https://github.com/petroff69/sentient-aiep",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
@@ -398,7 +372,7 @@ export const sideBarLeftSocials = [
     altimgname: "linkedin",
   },
   {
-    link: "https://github.com/petroff69",
+    link: "https://github.com/petroff69/sentient-aiep",
     icon: FiGithub,
     altimgname: "github",
   },
