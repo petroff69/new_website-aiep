@@ -20,6 +20,7 @@ import webflowicon from "../../assets/icons/webflowicon.svg";
 import tastyMockup from "../../assets/img/tasty_mockup.webp";
 import flashcards from "../../assets/img/flashcards.png";
 import chatbotMockup from "../../assets/img/Chatbot.jpg";
+import codeMockup from "../../assets/img/Codeditor.jpg";
 import flowchartMockup from "../../assets/img/Flowchart.jpg";
 import texteditMockup from "../../assets/img/Textedit.jpg";
 import profilepicture from "../img/me2.png";
@@ -180,7 +181,7 @@ export const projectsData = [
       { name: "React", icon: reacticon },
       { name: "Node.js", icon: nodejsicon },
     ],
-    image: instorMockup,
+    image: codeMockup,
     deploymenturl: "https://code.sentient-aiep.xyz/",
     githuburl: "https://github.com/petroff69/sentient-aiep",
     githubicon: FiGithub,
