@@ -19,7 +19,9 @@ import shopifyicon from "../../assets/icons/shopifyicon.svg";
 import webflowicon from "../../assets/icons/webflowicon.svg";
 import tastyMockup from "../../assets/img/tasty_mockup.webp";
 import flashcards from "../../assets/img/flashcards.png";
-import instorMockup from "../../assets/img/instor_mockup.webp";
+import chatbotMockup from "../../assets/img/Chatbot.jpg";
+import flowchartMockup from "../../assets/img/Flowchart.jpg";
+import texteditMockup from "../../assets/img/Textedit.jpg";
 import profilepicture from "../img/me2.png";
 import caricon from "../../assets/icons/car-icon.svg";
 import travelicon from "../../assets/icons/travel-icon.svg";
@@ -128,7 +130,7 @@ export const projectsData = [
       { name: "React", icon: reacticon },
       { name: "Node.js", icon: nodejsicon },
     ],
-    image: instorMockup,
+    image: chatbotMockup,
     deploymenturl: "https://chatbot.sentient-aiep.xyz/",
     githuburl: "https://github.com/petroff69/sentient-aiep",
     githubicon: FiGithub,
@@ -153,7 +155,7 @@ export const projectsData = [
       { name: "React", icon: reacticon },
       { name: "Node.js", icon: nodejsicon },
     ],
-    image: instorMockup,
+    image: texteditMockup,
     deploymenturl: "https://editor.sentient-aiep.xyz/",
     githuburl: "https://github.com/petroff69/sentient-aiep",
     githubicon: FiGithub,
@@ -203,7 +205,7 @@ export const projectsData = [
       { name: "React", icon: reacticon },
       { name: "Node.js", icon: nodejsicon },
     ],
-    image: instorMockup,
+    image: flowchartMockup,
     deploymenturl: "https://flowchart.sentient-aiep.xyz/",
     githuburl: "https://github.com/petroff69/sentient-aiep",
     githubicon: FiGithub,
